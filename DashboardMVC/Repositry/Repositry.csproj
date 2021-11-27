@@ -52,12 +52,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IModelRepository.cs" />
+    <Compile Include="IUnitOfWork.cs" />
     <Compile Include="ModelRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnitOfWork.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HotelDataEF\HotelDataEF.csproj">
+      <Project>{8c5cddcc-587b-4259-8145-c91e46e9125e}</Project>
+      <Name>HotelDataEF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HotelModels\HotelModels.csproj">
+      <Project>{cc59212e-4645-4377-9967-6612cff5ffae}</Project>
+      <Name>HotelModels</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -1,0 +1,17 @@
+C:\Users\abdel\source\repos\abdelkadermahmoud\ITIFinal\DashboardMVC\Repositry\bin\Debug\Repositry.dll.config
+C:\Users\abdel\source\repos\abdelkadermahmoud\ITIFinal\DashboardMVC\Repositry\bin\Debug\Repositry.dll
+C:\Users\abdel\source\repos\abdelkadermahmoud\ITIFinal\DashboardMVC\Repositry\bin\Debug\Repositry.pdb
+C:\Users\abdel\source\repos\abdelkadermahmoud\ITIFinal\DashboardMVC\Repositry\bin\Debug\EntityFramework.dll
+C:\Users\abdel\source\repos\abdelkadermahmoud\ITIFinal\DashboardMVC\Repositry\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\abdel\source\repos\abdelkadermahmoud\ITIFinal\DashboardMVC\Repositry\bin\Debug\HotelDataEF.dll
+C:\Users\abdel\source\repos\abdelkadermahmoud\ITIFinal\DashboardMVC\Repositry\bin\Debug\HotelModels.dll
+C:\Users\abdel\source\repos\abdelkadermahmoud\ITIFinal\DashboardMVC\Repositry\bin\Debug\HotelDataEF.pdb
+C:\Users\abdel\source\repos\abdelkadermahmoud\ITIFinal\DashboardMVC\Repositry\bin\Debug\HotelDataEF.dll.config
+C:\Users\abdel\source\repos\abdelkadermahmoud\ITIFinal\DashboardMVC\Repositry\bin\Debug\HotelModels.pdb
+C:\Users\abdel\source\repos\abdelkadermahmoud\ITIFinal\DashboardMVC\Repositry\bin\Debug\EntityFramework.xml
+C:\Users\abdel\source\repos\abdelkadermahmoud\ITIFinal\DashboardMVC\Repositry\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\abdel\source\repos\abdelkadermahmoud\ITIFinal\DashboardMVC\Repositry\obj\Debug\Repositry.csproj.AssemblyReference.cache
+C:\Users\abdel\source\repos\abdelkadermahmoud\ITIFinal\DashboardMVC\Repositry\obj\Debug\Repositry.csproj.CoreCompileInputs.cache
+C:\Users\abdel\source\repos\abdelkadermahmoud\ITIFinal\DashboardMVC\Repositry\obj\Debug\Repositry.csproj.CopyComplete
+C:\Users\abdel\source\repos\abdelkadermahmoud\ITIFinal\DashboardMVC\Repositry\obj\Debug\Repositry.dll
+C:\Users\abdel\source\repos\abdelkadermahmoud\ITIFinal\DashboardMVC\Repositry\obj\Debug\Repositry.pdb
