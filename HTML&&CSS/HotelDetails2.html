@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Hotel Details</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+        crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- Start Nav Bar and Header -->
+    <header>
+        <nav class="nav navbar  fw-bold navbar-expand-lg navbar-light text-black opacity-100 bg-white p-0">
+            <div class="container-fluid">
+                <a class=h ref="#">
+                    <img src="./resources/logo.svg" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class=" d-none d-xxl-block collapse navbar-collapse">
+
+                    <ul class="mx-5 col-5 d-flex justify-content-start navbar-nav p-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Hotels </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> Flights</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> Cars </a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#">Packages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Things To do</a>
+                        </li>
+                    </ul>
+                    <ul class="mx-5 col-6 float-right justify-content-end navbar-nav mb-2 p-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">English</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> List Your Property</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> Support</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#">Trips</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sing in</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+                    <ul class=" d-xl-none d-xxl-none d-lg-none bg-secondary z-index=1000 navbar-nav p-0 me-auto ">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Hotels </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> Flights</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> Cars </a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#">Packages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Things To do</a>
+                        </li>
+                    </ul>
+                    <ul class="d-xl-none d-xxl-none d-lg-none bg-secondary navbar-nav p-0 me-auto ">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">English</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> List Your Property</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"> Support</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#">Trips</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Sing in</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- End Nav Bar and Header -->
+    <div class="container-fluid">
+        <section class="gallary row">
+            <a href="#">See all properties</a>
+            <div class="col-12">
+
+                <div class="left d-none d-xl-block d-xxl-block d-lg-block">
+                    <img src="./resources/1.webp" alt="">
+                </div>
+                <div class="right d-none d-xl-block d-xxl-block d-lg-block">
+                    <img src="./resources/2.webp" alt="">
+                    <img src="./resources/3.webp" alt="">
+
+                    <img src="./resources/4.webp" alt="">
+                    <img src="./resources/5.webp" alt="">
+                </div>
+                <div style="clear: both;"></div>
+                <div id="demo" class="carousel slide d-xxl-none d-xl-none d-lg-none" data-bs-ride="carousel">
+
+                    <!-- Indicators/dots -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+                    </div>
+
+                    <!-- The slideshow/carousel -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="resources/1.webp" alt="Los Angeles" class="d-block" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="resources/2.webp" alt="Chicago" class="d-block" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="resources/3.webp" alt="New York" class="d-block" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="resources/4.webp" alt="New York" class="d-block" style="width:100%">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="resources/5.webp" alt="New York" class="d-block" style="width:100%">
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls/icons -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+                <nav class="navbar navbar-expand-sm bg-white navbar-dark sticky-top">
+                    <div class="container-fluid fw-bold ">
+                        <ul class="d-flex justify-content-start flex-md-row flex-sm-row ">
+                            <li class="nav-item ">
+                                <a class="nav-link active" href="#overview">Overview</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#rooms">Rooms</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#location">Location</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#amenities">Amenities</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#policies">Policies</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#reviews">Reviews</a>
+                            </li>
+
+                        </ul>
+                        <a href="#rooms" class="d-none d-xxl-block d-xl-block d-l-block non">
+                            <button class="btnreserve">Reserve a room</button>
+                        </a>
+                    </div>
+
+
+                </nav>
+                <div style="clear: both;"></div>
+            </div>
+
+        </section>
+    </div>
+    <div style="clear: both;"></div>
+    <section id="overview container">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-7 col-xl-7 col-xxl-7">
+                <h1 class="m-3">Four Seasons Hotel Cairo at Nile Plaza</h1>
+                <h3 class="m-3">4.4/5 Excellent </h3>
+                <div class="m-3" style="font-size: 14px;">Guests rated this property 4.6/5 for cleanliness.</div>
+
+                <h1 class="m-3">Four Seasons Hotel Cairo at Nile Plaza</h1>
+                <div>
+                    <ul class="ul col-12">
+                        <h3>Popular amenities</h3>
+                        <li>
+                            <svg class="icon" aria-hidden="true" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <svg>
+                                    <path d="M9.82 11.64h.01a4.15 4.15 0 014.36 0h.01c.76.46 1.54.47 2.29 0l.41-.23L10.48 5C8.93 3.45 7.5 2.99 5 3v2.5c1.82-.01 2.89.39 4 1.5l1 1-3.25 3.25c.27.1.52.25.77.39.75.47 1.55.47 2.3 0z"></path>
+                                    <path fill-rule="evenodd" d="M21.98 16.5c-1.1 0-1.71-.37-2.16-.64h-.01a2.08 2.08 0 00-2.29 0 4.13 4.13 0 01-4.36 0h-.01a2.08 2.08 0 00-2.29 0 4.13 4.13 0 01-4.36 0h-.01a2.08 2.08 0 00-2.29 0l-.03.02c-.47.27-1.08.62-2.17.62v-2c.56 0 .78-.13 1.15-.36a4.13 4.13 0 014.36 0h.01c.76.46 1.54.47 2.29 0a4.13 4.13 0 014.36 0h.01c.76.46 1.54.47 2.29 0a4.13 4.13 0 014.36 0h.01c.36.22.6.36 1.14.36v2z"
+                                        clip-rule="evenodd"></path>
+                                    <path d="M19.82 20.36c.45.27 1.07.64 2.18.64v-2a1.8 1.8 0 01-1.15-.36 4.13 4.13 0 00-4.36 0c-.75.47-1.53.46-2.29 0h-.01a4.15 4.15 0 00-4.36 0h-.01c-.75.47-1.55.47-2.3 0a4.15 4.15 0 00-4.36 0h-.01A1.8 1.8 0 012 19v2c1.1 0 1.72-.36 2.18-.63l.01-.01a2.07 2.07 0 012.3 0c1.39.83 2.97.82 4.36 0h.01a2.08 2.08 0 012.29 0h.01c1.38.83 2.95.83 4.34.01l.02-.01a2.08 2.08 0 012.29 0h.01zM19 5.5a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z"></path>
+                                </svg>
+                            </svg> Pool</li>
+                        <li> Free WiFi</li>
+                        <li> Air conditioning</li>
+                        <li> Laundry</li>
+                        <li> Spa</li>
+                        <li> Pet friendly</li>
+                    </ul>
+
+                    <ul class="ul col-12">
+                        <!-- <h3>Cleaning and safety practices</h3> -->
+                        <li> Cleaned with disinfectant</li>
+                        <li> Contactless check-in</li>
+                        <li> 48-hour vacancy between guest room stays</li>
+                        <li> Hand sanitizer provided
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="">
+                                <iframe height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=1089%20Corniche%20El%20Nile,%20Cairo,%2011519&t=&z=7&ie=UTF8&iwloc=&output=embed"
+                                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <h3>Explore the area</h3>
+                            <ul class="ul col-12">
+                                <li> Cleaned with disinfectant</li>
+                                <li> Tahrir Square</li>
+                                <li> Egyptian Museum</li>
+                                <li> Cairo (CAI-Cairo Intl.)</li>
+                                <li> 14 min walk</li>
+                                <li> 14 min walk</li>
+                                <li> 20 min walk</li>
+                                <li> 20 min drive</li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div style="clear: both;"></div>
+    </section>
+
+    <section id="rooms">
+        <h1 class="my-5 fw-bolder">Choose your room</h1>
+        <div class="formSearch container">
+            <div class="row">
+                <form action="#" class="row">
+                    <input class=" col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3 " type="date" placeholder="Check in date">
+                    <input class=" col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3 " type="date" placeholder="Check out date">
+                    <input class="col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3 " type="number" placeholder="Number of travelers">
+                    <button class="btn btn-primary col-sm-12 col-md-12 col-lg-2 col-xl-2 col-xxl-2">Check Rates</button>
+                </form>
+            </div>
+
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="card-body col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+                    <div class="card-img-top">
+                        <img src="./resources/4.webp" alt="">
+                    </div>
+                    <div class="card-header">
+                        <h4> Superior Room, 1 King Bed, Pool View
+                            <div class="roomrate"> 4.9/5 guest room rating</div>
+                        </h4>
+                        <ul class="card-body">
+                            <li> 495 sq ft</li>
+                            <li> Sleeps 2</li>
+                            <li> 1 King Bed</li>
+                            <li> Free WiFi</li>
+                            <li> Reserve now, pay later</li>
+                        </ul>
+
+                        <div class=" card-footer">
+                            <h3> $285</h3>
+                            <p> per night</p>
+                            <p> $368 total</p>
+                            <p> Includes taxes & fees </p>
+
+                            <a class="anchor" href="#">Price details</a>
+                            <a href="Checkout.html">
+                                <button class="justify-content-end btn btn-primary btn-outline-info">Reserve</button>
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="card-body col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+                    <div class="card-img-top">
+                        <img src="./resources/4.webp" alt="">
+                    </div>
+                    <div class="card-header">
+                        <h4> Superior Room, 1 King Bed, Pool View
+                            <div class="roomrate"> 4.9/5 guest room rating</div>
+                        </h4>
+                        <ul class="card-body">
+                            <li> 495 sq ft</li>
+                            <li> Sleeps 2</li>
+                            <li> 1 King Bed</li>
+                            <li> Free WiFi</li>
+                            <li> Reserve now, pay later</li>
+                        </ul>
+
+                        <div class=" card-footer">
+                            <h3> $285</h3>
+                            <p> per night</p>
+                            <p> $368 total</p>
+                            <p> Includes taxes & fees </p>
+
+                            <a class="anchor" href="#">Price details</a>
+                            <a href="Checkout.html">
+                                <button class="btn btn-primary btn-outline-info">Reserve</button>
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="card card-body rounded-3 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+                    <div class="card-img-top">
+                        <img src="./resources/4.webp" alt="">
+                    </div>
+                    <div class="card-header">
+                        <h4> Superior Room, 1 King Bed, Pool View
+                            <div class="roomrate"> 4.9/5 guest room rating</div>
+                        </h4>
+                        <ul class="card-body">
+                            <li> 495 sq ft</li>
+                            <li> Sleeps 2</li>
+                            <li> 1 King Bed</li>
+                            <li> Free WiFi</li>
+                            <li> Reserve now, pay later</li>
+                        </ul>
+
+                        <div class=" card-footer">
+                            <h3> $285</h3>
+                            <p> per night</p>
+                            <p> $368 total</p>
+                            <p> Includes taxes & fees </p>
+
+                            <a class="anchor" href="#">Price details</a>
+                            <a href="Checkout.html">
+                                <button class="btn btn-primary btn-outline-info">Reserve</button>
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="card card-body rounded-3 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+                    <div class="card-img-top">
+                        <img src="./resources/4.webp" alt="">
+                    </div>
+                    <div class="card-header">
+                        <h4> Superior Room, 1 King Bed, Pool View
+                            <div class="roomrate"> 4.9/5 guest room rating</div>
+                        </h4>
+                        <ul class="card-body">
+                            <li> 495 sq ft</li>
+                            <li> Sleeps 2</li>
+                            <li> 1 King Bed</li>
+                            <li> Free WiFi</li>
+                            <li> Reserve now, pay later</li>
+                        </ul>
+
+                        <div class=" card-footer">
+                            <h3> $285</h3>
+                            <p> per night</p>
+                            <p> $368 total</p>
+                            <p> Includes taxes & fees </p>
+
+                            <a class="anchor" href="#">Price details</a>
+                            <a href="Checkout.html">
+                                <button class="btn btn-primary btn-outline-info">Reserve</button>
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="card card-body rounded-3 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+                    <div class="card-img-top">
+                        <img src="./resources/4.webp" alt="">
+                    </div>
+                    <div class="card-header">
+                        <h4> Superior Room, 1 King Bed, Pool View
+                            <div class="roomrate"> 4.9/5 guest room rating</div>
+                        </h4>
+                        <ul class="card-body">
+                            <li> 495 sq ft</li>
+                            <li> Sleeps 2</li>
+                            <li> 1 King Bed</li>
+                            <li> Free WiFi</li>
+                            <li> Reserve now, pay later</li>
+                        </ul>
+
+                        <div class=" card-footer">
+                            <h3> $285</h3>
+                            <p> per night</p>
+                            <p> $368 total</p>
+                            <p> Includes taxes & fees </p>
+
+                            <a class="anchor" href="#">Price details</a>
+                            <a href="Checkout.html">
+                                <button class="btn btn-primary btn-outline-info">Reserve</button>
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="card card-body rounded-3 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+                    <div class="card-img-top">
+                        <img src="./resources/4.webp" alt="">
+                    </div>
+                    <div class="card-header">
+                        <h4> Superior Room, 1 King Bed, Pool View
+                            <div class="roomrate"> 4.9/5 guest room rating</div>
+                        </h4>
+                        <ul class="card-body">
+                            <li> 495 sq ft</li>
+                            <li> Sleeps 2</li>
+                            <li> 1 King Bed</li>
+                            <li> Free WiFi</li>
+                            <li> Reserve now, pay later</li>
+                        </ul>
+
+                        <div class=" card-footer">
+                            <h3> $285</h3>
+                            <p> per night</p>
+                            <p> $368 total</p>
+                            <p> Includes taxes & fees </p>
+
+                            <a class="anchor" href="#">Price details</a>
+                            <a href="Checkout.html">
+                                <button class="btn btn-primary btn-outline-info">Reserve</button>
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="card card-body rounded-3 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+                    <div class="card-img-top">
+                        <img src="./resources/4.webp" alt="">
+                    </div>
+                    <div class="card-header">
+                        <h4> Superior Room, 1 King Bed, Pool View
+                            <div class="roomrate"> 4.9/5 guest room rating</div>
+                        </h4>
+                        <ul class="card-body">
+                            <li> 495 sq ft</li>
+                            <li> Sleeps 2</li>
+                            <li> 1 King Bed</li>
+                            <li> Free WiFi</li>
+                            <li> Reserve now, pay later</li>
+                        </ul>
+
+                        <div class=" card-footer">
+                            <h3> $285</h3>
+                            <p> per night</p>
+                            <p> $368 total</p>
+                            <p> Includes taxes & fees </p>
+
+                            <a class="anchor" href="#">Price details</a>
+                            <a href="Checkout.html">
+                                <button class="btn btn-primary btn-outline-info">Reserve</button>
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="card card-body rounded-3 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+                    <div class="card-img-top">
+                        <img src="./resources/4.webp" alt="">
+                    </div>
+                    <div class="card-header">
+                        <h4> Superior Room, 1 King Bed, Pool View
+                            <div class="roomrate"> 4.9/5 guest room rating</div>
+                        </h4>
+                        <ul class="card-body">
+                            <li> 495 sq ft</li>
+                            <li> Sleeps 2</li>
+                            <li> 1 King Bed</li>
+                            <li> Free WiFi</li>
+                            <li> Reserve now, pay later</li>
+                        </ul>
+
+                        <div class=" card-footer">
+                            <h3> $285</h3>
+                            <p> per night</p>
+                            <p> $368 total</p>
+                            <p> Includes taxes & fees </p>
+
+                            <a class="anchor" href="#">Price details</a>
+                            <a href="Checkout.html">
+                                <button class="btn btn-primary btn-outline-info">Reserve</button>
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="card card-body rounded-3 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+                    <div class="card-img-top">
+                        <img src="./resources/4.webp" alt="">
+                    </div>
+                    <div class="card-header">
+                        <h4> Superior Room, 1 King Bed, Pool View
+                            <div class="roomrate"> 4.9/5 guest room rating</div>
+                        </h4>
+                        <ul class="card-body">
+                            <li> 495 sq ft</li>
+                            <li> Sleeps 2</li>
+                            <li> 1 King Bed</li>
+                            <li> Free WiFi</li>
+                            <li> Reserve now, pay later</li>
+                        </ul>
+
+                        <div class=" card-footer">
+                            <h3> $285</h3>
+                            <p> per night</p>
+                            <p> $368 total</p>
+                            <p> Includes taxes & fees </p>
+
+                            <a class="anchor" href="#">Price details</a>
+                            <a href="Checkout.html">
+                                <button class="btn btn-primary btn-outline-info">Reserve</button>
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="card card-body rounded-3 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+                    <div class="card-img-top">
+                        <img src="./resources/4.webp" alt="">
+                    </div>
+                    <div class="card-header">
+                        <h4> Superior Room, 1 King Bed, Pool View
+                            <div class="roomrate"> 4.9/5 guest room rating</div>
+                        </h4>
+                        <ul class="card-body">
+                            <li> 495 sq ft</li>
+                            <li> Sleeps 2</li>
+                            <li> 1 King Bed</li>
+                            <li> Free WiFi</li>
+                            <li> Reserve now, pay later</li>
+                        </ul>
+
+                        <div class=" card-footer">
+                            <h3> $285</h3>
+                            <p> per night</p>
+                            <p> $368 total</p>
+                            <p> Includes taxes & fees </p>
+
+                            <a class="anchor" href="#">Price details</a>
+                            <a href="Checkout.html">
+                                <button class="btn btn-primary btn-outline-info">Reserve</button>
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="card card-body rounded-3 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+                    <div class="card-img-top">
+                        <img src="./resources/4.webp" alt="">
+                    </div>
+                    <div class="card-header">
+                        <h4> Superior Room, 1 King Bed, Pool View
+                            <div class="roomrate"> 4.9/5 guest room rating</div>
+                        </h4>
+                        <ul class="card-body">
+                            <li> 495 sq ft</li>
+                            <li> Sleeps 2</li>
+                            <li> 1 King Bed</li>
+                            <li> Free WiFi</li>
+                            <li> Reserve now, pay later</li>
+                        </ul>
+
+                        <div class=" card-footer">
+                            <h3> $285</h3>
+                            <p> per night</p>
+                            <p> $368 total</p>
+                            <p> Includes taxes & fees </p>
+
+                            <a class="anchor" href="#">Price details</a>
+                            <a href="Checkout.html">
+                                <button class="btn btn-primary btn-outline-info">Reserve</button>
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="card card-body rounded-3 col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+                    <div class="card-img-top">
+                        <img src="./resources/4.webp" alt="">
+                    </div>
+                    <div class="card-header">
+                        <h4> Superior Room, 1 King Bed, Pool View
+                            <div class="roomrate"> 4.9/5 guest room rating</div>
+                        </h4>
+                        <ul class="card-body">
+                            <li> 495 sq ft</li>
+                            <li> Sleeps 2</li>
+                            <li> 1 King Bed</li>
+                            <li> Free WiFi</li>
+                            <li> Reserve now, pay later</li>
+                        </ul>
+
+                        <div class=" card-footer">
+                            <h3> $285</h3>
+                            <p> per night</p>
+                            <p> $368 total</p>
+                            <p> Includes taxes & fees </p>
+
+                            <a class="anchor" href="#">Price details</a>
+                            <a href="Checkout.html">
+                                <button class="btn btn-primary btn-outline-info">Reserve</button>
+                            </a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="location">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
+                    <h1>About this area</h1>
+                    <h2>Cairo</h2>
+                    <p>
+                        Located in Cairo, Four Seasons Hotel Cairo at Nile Plaza is in the city center. Cairo Opera House and Gayer-Anderson Museum
+                        are cultural highlights, and travelers looking to shop may want to visit Khan el-Khalili and City
+                        Stars. Traveling with kids? Consider Giza Zoo and Giza Solar Boat Museum. Spend some time exploring
+                        the area's activities, including outlet shopping.</p>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8 col-xxl-8">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="mapouter">
+                                <iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=1089%20Corniche%20El%20Nile,%20Cairo,%2011519&t=&z=7&ie=UTF8&iwloc=&output=embed"
+                                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                            </div>
+                        </div>
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                                    <h1>What's nearby</h1>
+                                    <ul>
+                                        <li>American University of Cairo - 14 min walk</li>
+                                        <li> Tahrir Square - 14 min walk</li>
+                                        <li> Qasr El Nil Bridge - 17 min walk</li>
+                                        <li>Egyptian Museum - 20 min walk</li>
+                                        <li> Cairo Opera House - 3 min drive</li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                                    <h1>Getting around</h1>
+                                    <ul>
+                                        <li> Cairo Rames Station - 8 min drive</li>
+                                        <li> Cairo Intl. Airport (CAI) - 20 min drive</li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                                    <h1>Restaurants</h1>
+                                    <ul>
+                                        <li> Bella — 1 min walk</li>
+                                        <li>Eight Restaurant — 1 min walk</li>
+                                        <li> Osmanly Restaurant — 3 min walk</li>
+                                        <li> Revolving Restaurant — 5 min walk</li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+    <section class="aboutproperty">
+        <div class="">
+            <div class="leftabout">
+                <h1>About this property</h1>
+            </div>
+            <div class="rightabout">
+                <h1> Four Seasons Hotel Cairo at Nile Plaza</h1>
+                <p>Along with 5 restaurants, this hotel has 2 outdoor pools and an indoor pool. WiFi in public areas is free.
+                    Other amenities include 3 bars/lounges, a 24-hour fitness center, and a poolside bar. All 365 individually
+                    furnished rooms feature free WiFi and 24-hour room service. Guests can enjoy deep soaking tubs, and other
+                    standard amenities include DVD players, minibars, and LCD TVs.
+                </p>
+                <h1> Awards and affiliations</h1>
+                <h5> Green / Sustainable Property</h5>
+                <span>This property participates in EarthCheck, a program that measures the property's impact on one or more of
+                    the following: environment, community, cultural-heritage, the local economy.</span>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+        <hr>
+        <div class="">
+            <div class="leftabout">
+                <h1>Cleaning and safety practices</h1>
+            </div>
+            <div class="rightabout">
+
+                <ul>
+                    <h1> Enhanced cleanliness measures</h1>
+                    <li> Disinfectant is used to clean the property</li>
+                    <li> High-touch surfaces are cleaned and disinfected</li>
+                    <li> Sheets and towels are washed at 60°C/140°F or hotter</li>
+                    <li> Follows standard cleaning and disinfection practices of Lead with Care (Four Seasons)</li>
+                    <li> Follows industry cleaning and disinfection practices of Intertek Cristal (3rd party expert - Global)</li>
+                </ul>
+                <ul>
+                    <h1>Social distancing</h1>
+                    <li> Contactless check-in and check-out</li>
+                    <li>Cashless transactions are available for all charges at the property
+                    </li>
+                    <li>Guest rooms kept vacant for 48 hours between stays</li>
+                    <li>Social distancing measures in place</li>
+                    <li>Contactless room service is available</li>
+
+                </ul>
+                <ul>
+                    <h1>Safety measures</h1>
+                    <li>Personal protective equipment worn by staff
+                    </li>
+                    <li>Temperature checks given to staff</li>
+                    <li>Temperature checks available for guests</li>
+                    <li>Masks and gloves available</li>
+                    <li>Masks are required at the property</li>
+                    <li>Hand sanitizer provided</li>
+                    <li>Enhanced food service safety measures are in place
+                    </li>
+                    <li>Individually-wrapped food options available for breakfast, lunch, dinner, and through room service
+                    </li>
+                </ul>
+            </div>
+            <div style="clear: both;"></div>
+
+    </section>
+    <div style="clear: both;"></div>
+    <section id="amenities">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3">
+                    <h1>Property amenities
+                    </h1>
+                </div>
+                <div class="col-9">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <ul class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                                <h1>Internet</h1>
+                                <li>Available in all rooms: Free WiFi </li>
+                                <li>Available in some public areas: Free WiFi</li>
+                            </ul>
+                        
+
+                    <ul class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                        <h1>Business services</h1>
+                        <li>Business center
+                        </li>
+                        <li>Conference space
+                        </li>
+                        <li>Meeting rooms
+                        </li>
+                    </ul>
+                    <ul class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                        <h1>Parking and transportation</h1>
+                        <li>Covered self parking on site (USD 16 per day)
+                        </li>
+                        <li>Covered valet parking on site (USD 16 per day)
+
+                        </li>
+                        <li>Wheelchair-accessible parking available
+                        </li>
+                        <li>24-hour roundtrip airport shuttle (surcharge)
+                        </li>
+                        <li>Roundtrip train station shuttle (surcharge)
+                        </li>
+                        <li>Limo/town car service
+                        </li>
+                    </ul>
+                    <ul class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                        <h1>Outdoors</h1>
+                        <li>BBQ grill(s)
+                        </li>
+                        <li>Lifeguards on site
+
+                        </li>
+                        <li>Pool cabanas (surcharge)
+                        </li>
+                        <li>Pool sun loungers
+                        </li>
+                        <li> Pool umbrellas
+                        </li>
+                        <li>Terrace
+                        </li>
+                    </ul>
+                    <ul class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                        <h1>Food and drink</h1>
+                        <li>Buffet breakfast available for a fee daily 6 AM–11:30 AM: USD 31 per person
+
+                        </li>
+                        <li> 5 restaurants and 1 coffee shop/café
+
+                        </li>
+                        <li>3 bars/lounges and 1 poolside bar
+                        </li>
+                        <li>24-hour room service
+                        </li>
+                        <li>Coffee/tea in common area(s)
+                        </li>
+                        <li>Limo/town car service
+                        </li>
+                    </ul>
+                    <ul class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                            <h1>Things to do</h1>
+                            <li>24-hour fitness center</li>
+                            <li>2 outdoor pools</li>
+                            <li>Children's pool</li>
+                            <li>Indoor pool</li>
+                            <li>Lifeguards on site</li>
+                            <li>Shopping</li>
+                            <li>Spa services </li>
+                        </ul>
+                    <ul class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                        <h1>Spa</h1>
+                        <li>14 treatment rooms
+                        </li>
+                        <li>Body scrubs
+                        </li>
+                        <li>Body treatments
+                        </li>
+                        <li>Body wraps
+                        </li>
+                        <li>Couples treatment room(s)
+                        </li>
+                        <li>Detox wraps
+                        </li>
+                        <li>Facials</li>
+                        <li>Manicures and pedicures
+                        </li>
+                        <li>Massage - deep-tissue
+                        </li>
+                        <li>Massage - hot stone
+                        </li>
+                        <li>
+                            Massage - sports </li>
+                        <li>
+                            Massage - Swedish
+                        </li>
+                        <li>Massage - Thai
+                        </li>
+                        <li> Massage/treatment</li>
+                        <li>rooms Reflexology</li>
+                        <li>Turkish bath/hammam</li>
+                    </ul>
+                    <ul class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                            <h1> Family friendly</h1>
+                            <li>2 outdoor pools
+                            </li>
+                            <li>Babysitting/childcare (surcharge)
+                            </li>
+                            <li>Children's pool
+                            </li>
+                            <li>DVD player
+                            </li>
+                            <li>Free cribs/infant beds
+                            </li>
+                            <li>Free rollaway/extra beds
+                            </li>
+                            <li>Indoor pool
+                            </li>
+                            <li>In-room child care (surcharge)
+                            </li>
+                            <li>Laundry facilities</li>
+                            <li>Snack bar/deli
+                            </li>
+                        </ul>
+                    <ul class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+
+                        <h1>Accessibility</h1>
+                        <li>If you have requests for specific accessibility needs, please contact the property using the information
+                            on the reservation confirmation received after booking.</li>
+                        <li>Accessible bathroom (select rooms)</li>
+                        <li>Braille signage</li>
+                        <li>Grab bar near toilet
+                        </li>
+                        <li>Handrails in hallways
+                        </li>
+                        <li>Handrails in stairways
+                        </li>
+                        <li>In-room accessibility
+                        </li>
+                        <li>Low-height counter and sink
+                        </li>
+                        <li>Raised toilet seat
+                        </li>
+                        <li> Stair-free path to entrance
+                        </li>
+                        <li>Visual fire alarm
+                        </li>
+                        <li>Well-lit path to entrance</li>
+                        <li>Wheelchair-accessible concierge desk
+                        </li>
+                        <li>Wheelchair-accessible parking
+                        </li>
+                        <li>Wheelchair-accessible pool
+                        </li>
+                        <li>Wheelchair-accessible registration desk
+                        </li>
+                        <li>Wheelchair-accessible spa
+                        </li>
+                        <li>Wheelchair accessible (may have limitations)
+                        </li>
+                        <li> Wheelchairs available on site
+                        </li>
+                    </ul>
+                    
+                    <ul class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                        <h1>Conveniences</h1>
+                        <li>ATM/banking services
+                        </li>
+                        <li>Ballroom</li>
+                        <li>Banquet hall
+                        </li>
+                        <li>Elevator
+                        </li>
+                        <li> Free newspapers in lobby
+                        </li>
+                        <li> Front-desk safe
+                        </li>
+                        <li> Gift shop/newsstand
+                        </li>
+                    </ul>
+                    <ul class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                        <h1>Guest services</h1>
+                        <li>24-hour front desk
+                        </li>
+                        <li>Concierge services
+                        </li>
+                        <li>Daily housekeeping
+                        </li>
+                        <li>Dry cleaning service
+                        </li>
+                        <li>Hair salon
+                        </li>
+                        <li>Laundry facilities
+                        </li>
+                        <li>Luggage storage
+                        </li>
+                        <li>Multilingual staff
+                        </li>
+                        <li>Porter/bellhop
+                        </li>
+                        <li>Tour/ticket assistance
+                        </li>
+                        <li>Turndown service
+                        </li>
+                        <li>Wedding services
+                        </li>
+                    </ul>
+                    <ul class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                        <h1>Languages spoken</h1>
+                        <li>Arabic</li>
+                        <li>Chinese</li>
+                        <li>English</li>
+                        <li>French</li>
+                        <li>German</li>
+                        <li>Italian</li>
+                        <li>Russian</li>
+                    </ul>
+                    <ul class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+                        <h1>More</h1>
+                        <li> Designated smoking areas</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+      
+        </div>
+    </section>
+
+    <footer>
+        <h1>developed by Abdelkader Mahmoud</h1>
+    </footer>
+    <script>
+
+        window.onscroll = function () { myFunction() };
+
+        var navbar = document.getElementById("nav");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+</body>
+
+</html>
