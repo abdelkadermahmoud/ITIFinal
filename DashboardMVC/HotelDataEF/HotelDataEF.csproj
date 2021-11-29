@@ -55,13 +55,9 @@
     <Compile Include="DBContextFactory.cs" />
     <Compile Include="HotelContext.cs" />
     <Compile Include="IDBContextFactory.cs" />
-    <Compile Include="Migrations\202111252029296_firstInit.cs" />
-    <Compile Include="Migrations\202111252029296_firstInit.designer.cs">
-      <DependentUpon>202111252029296_firstInit.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202111252040118_firstInit1.cs" />
-    <Compile Include="Migrations\202111252040118_firstInit1.designer.cs">
-      <DependentUpon>202111252040118_firstInit1.cs</DependentUpon>
+    <Compile Include="Migrations\202111291920382_init.cs" />
+    <Compile Include="Migrations\202111291920382_init.designer.cs">
+      <DependentUpon>202111291920382_init.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -77,11 +73,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202111252029296_firstInit.resx">
-      <DependentUpon>202111252029296_firstInit.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202111252040118_firstInit1.resx">
-      <DependentUpon>202111252040118_firstInit1.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202111291920382_init.resx">
+      <DependentUpon>202111291920382_init.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
