@@ -4,3 +4,9 @@ C:\Users\abdel\source\repos\abdelkadermahmoud\ITIFinal\DashboardMVC\HotelModels\
 C:\Users\abdel\source\repos\abdelkadermahmoud\ITIFinal\DashboardMVC\HotelModels\obj\Debug\HotelModels.csproj.CoreCompileInputs.cache
 C:\Users\abdel\source\repos\abdelkadermahmoud\ITIFinal\DashboardMVC\HotelModels\obj\Debug\HotelModels.dll
 C:\Users\abdel\source\repos\abdelkadermahmoud\ITIFinal\DashboardMVC\HotelModels\obj\Debug\HotelModels.pdb
+D:\iti\project\finalProject\DashboardMVC\HotelModels\bin\Debug\HotelModels.dll
+D:\iti\project\finalProject\DashboardMVC\HotelModels\bin\Debug\HotelModels.pdb
+D:\iti\project\finalProject\DashboardMVC\HotelModels\obj\Debug\HotelModels.csproj.AssemblyReference.cache
+D:\iti\project\finalProject\DashboardMVC\HotelModels\obj\Debug\HotelModels.csproj.CoreCompileInputs.cache
+D:\iti\project\finalProject\DashboardMVC\HotelModels\obj\Debug\HotelModels.dll
+D:\iti\project\finalProject\DashboardMVC\HotelModels\obj\Debug\HotelModels.pdb
