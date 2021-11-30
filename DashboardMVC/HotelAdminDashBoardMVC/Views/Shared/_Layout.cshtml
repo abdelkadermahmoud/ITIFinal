@@ -1,22 +1,28 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+    <link href="~/Content/dashboard.css" rel="stylesheet" />
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/dashboard/">
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="~/Content/dashboard.css" rel="stylesheet" />
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
+        <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("Dashboard", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
@@ -27,16 +33,148 @@
             </div>
         </div>
     </div>
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
+
+    <div class="container-fluid">
+        <div class="row">
+            <section class="app col-sm-3 col-xs-3 col-md-3  col-lg-3">
+                <aside class="sidebar">
+                    <header>
+                        Dashboard
+                    </header>
+                    <nav class="sidebar-nav">
+                        <ul>
+                            <li>
+                                <a href="#"><span>Shop</span></a>
+                                <ul class="nav-flyout">
+                                    <li>
+                                        <a href="#"><i class="ion-ios-color-filter-outline "></i>Derps</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="ion-ios-clock-outline "></i>Times</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="ion-android-star-outline"></i>Hates</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="ion-heart-broken"></i>Beat</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"> <span class="">Controls</span></a>
+                                <ul class="nav-flyout">
+                                    <li>
+                                        <a href="#"><i class="ion-ios-alarm-outline"></i>Watch</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="ion-ios-camera-outline"></i>Creeper</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="ion-ios-chatboxes-outline"></i>Hate</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="ion-ios-cog-outline"></i>Grinder</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">  <span class="">Folio</span></a>
+                                <ul class="nav-flyout">
+                                    <li>
+                                        <a href="#"><i class="ion-ios-flame-outline"></i>Burn</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="ion-ios-lightbulb-outline"></i>Bulbs</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="ion-ios-location-outline"></i>Where You</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="ion-ios-locked-outline"></i>On Lock</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="ion-ios-navigate-outline"></i>Ghostface</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"> <span class="">Graphicals</span></a>
+                                <ul class="nav-flyout">
+                                    <li>
+                                        <a href="#"><i class="ion-ios-timer-outline"></i>Timers</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="ion-arrow-graph-down-left"></i>You Lose</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="ion-ios-partlysunny-outline"></i>Stormy</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="ion-ios-timer-outline"></i>Lookie Look</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="ion-ios-game-controller-a-outline"></i>Dork Mfer</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><span class="">Papers</span></a>
+                                <ul class="nav-flyout">
+                                    <li>
+                                        <a href="#"><i class="ion-ios-filing-outline"></i>File Cab</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="ion-ios-information-outline"></i>Infos</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="ion-ios-paperplane-outline"></i>Planes</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="ion-android-star-outline"></i>Shop</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><span class="">Ass Finder</span></a>
+                                <ul class="nav-flyout">
+                                    <li>
+                                        <a href="#"><i class="ion-ios-flame-outline"></i>Burn</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="ion-ios-lightbulb-outline"></i>Bulbs</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="ion-ios-location-outline"></i>Where You</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="ion-ios-locked-outline"></i>On Lock</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="ion-ios-navigate-outline"></i>Ghostface</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><span class="">Cocaine</span></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </aside>
+            </section>
+            <section class="col-sm-9 col-xs-9 col-md-9 ms-sm-auto col-lg-9 ">
+                @RenderBody()
+            </section>
+        </div>
+
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <p>Final Project ITI &nbsp;&copy; @DateTime.Now.Year - Dashboard</p>
         </footer>
     </div>
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+   
+
 </body>
 </html>
