@@ -1,11 +1,17 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
+    <link href="~/Content/dashboard.css" rel="stylesheet" />
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/dashboard/">
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@ViewBag.Title - My ASP.NET Application</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="~/Content/dashboard.css" rel="stylesheet" />
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+
 </head>
 <body>
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -28,21 +34,134 @@
         </div>
     </div>
 
-    <div class="container-fluid body-content">
+    <div class="container-fluid">
         <div class="row">
-            <aside class="col-lg-2 bg-danger">
-                <div class="nk-sidebar nk-sidebar-fixed is-dark" data-content="sidebarMenu">
-                <div class="nk-sidebar-element nk-sidebar-head"><div class="nk-menu-trigger">
-                    <a href="#" class="nk-nav-toggle nk-quick-nav-icon d-xl-none" data-target="sidebarMenu">
-                    <em class="icon ni ni-arrow-left"></em></a>
-                    <a href="#" class="nk-nav-compact nk-quick-nav-icon d-none d-xl-inline-flex"
-                       data-target="sidebarMenu"><em class="icon ni ni-menu"></em></a></div>
-                    <div class="nk-sidebar-brand">
-                    <a href="/demo1/hotel/index.html" class="logo-link nk-sidebar-logo">
-            <img class="logo-light logo-img" src="/demo1/images/logo.png" srcset="/demo1/images/logo2x.png 2x" alt="logo">
-                        <img class="logo-dark logo-img" src="/demo1/images/logo-dark.png" srcset="/demo1/images/logo-dark2x.png 2x" alt="logo-dark"></a></div></div><div class="nk-sidebar-element nk-sidebar-body"><div class="nk-sidebar-content"><div class="nk-sidebar-menu" data-simplebar="init"><div class="simplebar-wrapper" style="margin: -16px 0px -40px;"><div class="simplebar-height-auto-observer-wrapper"><div class="simplebar-height-auto-observer"></div></div><div class="simplebar-mask"><div class="simplebar-offset" style="right: 0px; bottom: 0px;"><div class="simplebar-content-wrapper" tabindex="0" role="region" aria-label="scrollable content" style="height: 100%; overflow: hidden;"><div class="simplebar-content" style="padding: 16px 0px 40px;"><ul class="nk-menu"><li class="nk-menu-item"><a href="/demo1/hotel/index.html" class="nk-menu-link" data-original-title="" title=""><span class="nk-menu-icon"><em class="icon ni ni-dashboard-fill"></em></span><span class="nk-menu-text">Dashboard</span></a></li><li class="nk-menu-item has-sub"><a href="#" class="nk-menu-link nk-menu-toggle" data-original-title="" title=""><span class="nk-menu-icon"><em class="icon ni ni-calendar-booking-fill"></em></span><span class="nk-menu-text">Bookings</span></a><ul class="nk-menu-sub"><li class="nk-menu-item"><a href="/demo1/hotel/bookings.html" class="nk-menu-link" data-original-title="" title=""><span class="nk-menu-text">All Bookings</span></a></li><li class="nk-menu-item"><a href="/demo1/hotel/booking-add.html" class="nk-menu-link" data-original-title="" title=""><span class="nk-menu-text">Add Booking</span></a></li><li class="nk-menu-item"><a href="/demo1/hotel/booking-edit.html" class="nk-menu-link" data-original-title="" title=""><span class="nk-menu-text">Edit Booking</span></a></li></ul></li><li class="nk-menu-item has-sub active current-page"><a href="#" class="nk-menu-link nk-menu-toggle" data-original-title="" title=""><span class="nk-menu-icon"><em class="icon ni ni-home-fill"></em></span><span class="nk-menu-text">Room</span></a><ul class="nk-menu-sub" style="display: block;"><li class="nk-menu-item active current-page"><a href="/demo1/hotel/room-list.html" class="nk-menu-link" data-original-title="" title=""><span class="nk-menu-text">All Rooms</span></a></li><li class="nk-menu-item"><a href="/demo1/hotel/room-type.html" class="nk-menu-link" data-original-title="" title=""><span class="nk-menu-text">Room Types</span></a></li></ul></li><li class="nk-menu-item has-sub"><a href="#" class="nk-menu-link nk-menu-toggle" data-original-title="" title=""><span class="nk-menu-icon"><em class="icon ni ni-reports"></em></span><span class="nk-menu-text">Reports</span></a><ul class="nk-menu-sub"><li class="nk-menu-item"><a href="/demo1/hotel/report-stocks.html" class="nk-menu-link" data-original-title="" title=""><span class="nk-menu-text">Stocks</span></a></li><li class="nk-menu-item"><a href="/demo1/hotel/report-expenses.html" class="nk-menu-link" data-original-title="" title=""><span class="nk-menu-text">Expenses</span></a></li><li class="nk-menu-item"><a href="/demo1/hotel/report-booking.html" class="nk-menu-link" data-original-title="" title=""><span class="nk-menu-text">Booking</span></a></li></ul></li><li class="nk-menu-item"><a href="/demo1/hotel/customers.html" class="nk-menu-link" data-original-title="" title=""><span class="nk-menu-icon"><em class="icon ni ni-users-fill"></em></span><span class="nk-menu-text">Customers</span></a></li><li class="nk-menu-item has-sub"><a href="#" class="nk-menu-link nk-menu-toggle" data-original-title="" title=""><span class="nk-menu-icon"><em class="icon ni ni-coins"></em></span><span class="nk-menu-text">Payment</span></a><ul class="nk-menu-sub"><li class="nk-menu-item"><a href="/demo1/hotel/payment-methods.html" class="nk-menu-link" data-original-title="" title=""><span class="nk-menu-text">Payment Methods</span></a></li><li class="nk-menu-item"><a href="/demo1/hotel/invoice-list.html" class="nk-menu-link" data-original-title="" title=""><span class="nk-menu-text">Invocie List</span></a></li><li class="nk-menu-item"><a href="/demo1/hotel/invoice-details.html" class="nk-menu-link" data-original-title="" title=""><span class="nk-menu-text">Invocie Details</span></a></li></ul></li><li class="nk-menu-item"><a href="/demo1/hotel/support.html" class="nk-menu-link" data-original-title="" title=""><span class="nk-menu-icon"><em class="icon ni ni-chat-circle-fill"></em></span><span class="nk-menu-text">Support</span></a></li><li class="nk-menu-item"><a href="/demo1/hotel/settings.html" class="nk-menu-link" data-original-title="" title=""><span class="nk-menu-icon"><em class="icon ni ni-setting-alt-fill"></em></span><span class="nk-menu-text">Settings</span></a></li><li class="nk-menu-heading"><h6 class="overline-title text-primary-alt">Return to</h6></li><li class="nk-menu-item"><a href="/demo1/index.html" class="nk-menu-link" data-original-title="" title=""><span class="nk-menu-icon"><em class="icon ni ni-dashlite-alt"></em></span><span class="nk-menu-text">Main Dashboard</span></a></li><li class="nk-menu-item"><a href="/demo1/components.html" class="nk-menu-link" data-original-title="" title=""><span class="nk-menu-icon"><em class="icon ni ni-layers-fill"></em></span><span class="nk-menu-text">All Components</span></a></li></ul></div></div></div></div><div class="simplebar-placeholder" style="width: auto; height: 672px;"></div></div><div class="simplebar-track simplebar-horizontal" style="visibility: hidden;"><div class="simplebar-scrollbar" style="width: 0px; display: none; transform: translate3d(0px, 0px, 0px);"></div></div><div class="simplebar-track simplebar-vertical" style="visibility: hidden;"><div class="simplebar-scrollbar" style="height: 0px; display: none; transform: translate3d(0px, 0px, 0px);"></div></div></div></div></div></div>
-            </aside>
-            <section class="col-lg-10">
+            <section class="app col-sm-3 col-xs-3 col-md-3  col-lg-3">
+                <aside class="sidebar">
+                    <header>
+                        Dashboard
+                    </header>
+                    <nav class="sidebar-nav">
+                        <ul>
+                            <li>
+                                <a href="#"><span>Shop</span></a>
+                                <ul class="nav-flyout">
+                                    <li>
+                                        <a href="#"><i class="ion-ios-color-filter-outline "></i>Derps</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="ion-ios-clock-outline "></i>Times</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="ion-android-star-outline"></i>Hates</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="ion-heart-broken"></i>Beat</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"> <span class="">Controls</span></a>
+                                <ul class="nav-flyout">
+                                    <li>
+                                        <a href="#"><i class="ion-ios-alarm-outline"></i>Watch</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="ion-ios-camera-outline"></i>Creeper</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="ion-ios-chatboxes-outline"></i>Hate</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="ion-ios-cog-outline"></i>Grinder</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">  <span class="">Folio</span></a>
+                                <ul class="nav-flyout">
+                                    <li>
+                                        <a href="#"><i class="ion-ios-flame-outline"></i>Burn</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="ion-ios-lightbulb-outline"></i>Bulbs</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="ion-ios-location-outline"></i>Where You</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="ion-ios-locked-outline"></i>On Lock</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="ion-ios-navigate-outline"></i>Ghostface</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"> <span class="">Graphicals</span></a>
+                                <ul class="nav-flyout">
+                                    <li>
+                                        <a href="#"><i class="ion-ios-timer-outline"></i>Timers</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="ion-arrow-graph-down-left"></i>You Lose</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="ion-ios-partlysunny-outline"></i>Stormy</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="ion-ios-timer-outline"></i>Lookie Look</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="ion-ios-game-controller-a-outline"></i>Dork Mfer</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><span class="">Papers</span></a>
+                                <ul class="nav-flyout">
+                                    <li>
+                                        <a href="#"><i class="ion-ios-filing-outline"></i>File Cab</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="ion-ios-information-outline"></i>Infos</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="ion-ios-paperplane-outline"></i>Planes</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="ion-android-star-outline"></i>Shop</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><span class="">Ass Finder</span></a>
+                                <ul class="nav-flyout">
+                                    <li>
+                                        <a href="#"><i class="ion-ios-flame-outline"></i>Burn</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="ion-ios-lightbulb-outline"></i>Bulbs</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="ion-ios-location-outline"></i>Where You</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="ion-ios-locked-outline"></i>On Lock</a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="ion-ios-navigate-outline"></i>Ghostface</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><span class="">Cocaine</span></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </aside>
+            </section>
+            <section class="col-sm-9 col-xs-9 col-md-9 ms-sm-auto col-lg-9 ">
                 @RenderBody()
             </section>
         </div>
@@ -55,5 +174,7 @@
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+   
+
 </body>
 </html>
