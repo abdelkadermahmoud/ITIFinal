@@ -9,6 +9,9 @@
     <title>@ViewBag.Title - My ASP.NET Application</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="~/Content/dashboard.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery.unobtrusive-ajax.js"></script>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
 
@@ -44,10 +47,10 @@
                     <nav class="sidebar-nav">
                         <ul>
                             <li>
-                                <a href="#"><span>Guest</span></a>
+                                <a href="#"><span>Shop</span></a>
                                 <ul class="nav-flyout">
                                     <li>
-                                        @Html.ActionLink("Guest", "Index", "Guest")
+                                        <a href="#"><i class="ion-ios-color-filter-outline "></i>Derps</a>
                                     </li>
                                     <li>
                                         <a href="#"><i class="ion-ios-clock-outline "></i>Times</a>

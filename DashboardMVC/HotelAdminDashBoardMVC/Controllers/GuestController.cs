@@ -15,6 +15,16 @@ namespace HotelAdminDashBoardMVC.Controllers
         IModelRepository<Guest> GuestModelRepository;
         IModelRepository<User> UserModelRepository;
 
+        private List<User> AllGuests()
+        {
+            var person = new List<User>();
+
+            person = (from p in UserModelRepository.Get()
+                      join e in GuestModelRepository.Get()
+                      on p.ID equals e.ID
+                      select p).ToList();
+            return person;
+        }
         public GuestController(IUnitOfWork _UnitOfWork)
         {
             UnitOfWork = _UnitOfWork;
@@ -23,16 +33,28 @@ namespace HotelAdminDashBoardMVC.Controllers
         }
         public ActionResult Index()
         {
-            var person = new List<User>();
-            
-                person = (from p in UserModelRepository.Get()
-                          join e in GuestModelRepository.Get()
-                          on p.ID equals e.ID 
-                          select p).ToList();
+                        
+            return View(AllGuests());
+        }
+
+        public ActionResult Block(int? id)
+        {
 
 
-            
-            return View(person);
+            //if (id == null || id <= 0)
+            //    return Redirect("/User/Login");
+
+           // ViewBag.Title = $"Edit User With {id}";
+            User Temp = UserModelRepository.Get(id.Value);
+            //if (Temp == null)
+            //    return Redirect("/User/Login");
+            Temp.Status = Status.Blocked;
+            UserModelRepository.Edit(Temp);
+            UnitOfWork.Save();
+            //UserEditViewModel UserEditView = Temp.ToEditableModel();
+
+            return PartialView("_GuestsList", AllGuests());
+            //return Redirect("/Guest/Index");
         }
     }
 }
