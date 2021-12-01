@@ -11,6 +11,13 @@ namespace HotelModels
         Male=1,
         Female=2
     }
+
+    public enum Status
+    {
+        Binding = 1,
+        valid = 2,
+        Blocked = 3
+    }
     public class User:BaseModel
     {
         [Required]
@@ -42,5 +49,7 @@ namespace HotelModels
         [MaxLength(15)]
         public string Mobile { get; set; }
         public int City_Id { get; set; }
+        [Required]
+        public Status Status { get; set; }
     }
 }
