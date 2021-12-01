@@ -33,13 +33,14 @@
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
                 </ul>
+
             </div>
         </div>
     </div>
 
     <div class="container-fluid">
         <div class="row">
-            <section class="app col-sm-3 col-xs-3 col-md-3  col-lg-3">
+            <section class="app col-sm-2 col-xs-2 col-md-2  col-lg-2">
                 <aside class="sidebar">
                     <header>
                         Dashboard
@@ -47,21 +48,11 @@
                     <nav class="sidebar-nav">
                         <ul>
                             <li>
-                                <a href="#"><span>Shop</span></a>
-                                <ul class="nav-flyout">
-                                    <li>
-                                        <a href="#"><i class="ion-ios-color-filter-outline "></i>Derps</a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="ion-ios-clock-outline "></i>Times</a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="ion-android-star-outline"></i>Hates</a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="ion-heart-broken"></i>Beat</a>
-                                    </li>
-                                </ul>
+                                @Html.ActionLink("Guest", "Index", "Guest")
+
+                            </li>
+                            <li>
+                                @Html.ActionLink("Partner", "Index", "Partner")
                             </li>
                             <li>
                                 <a href="#"> <span class="">Controls</span></a>
@@ -164,7 +155,7 @@
                     </nav>
                 </aside>
             </section>
-            <section class="col-sm-9 col-xs-9 col-md-9 ms-sm-auto col-lg-9 ">
+            <section class="col-sm-10 col-xs-10 col-md-10 ms-sm-auto col-lg-10 ">
                 @RenderBody()
             </section>
         </div>

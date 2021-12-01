@@ -3,11 +3,11 @@
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class status : DbMigration
+    public partial class identity : DbMigration
     {
         public override void Up()
         {
-            AddColumn("dbo.Users", "Status", c => c.Int(nullable: true));
+            AddColumn("dbo.Users", "Status", c => c.Int(nullable: false));
         }
         
         public override void Down()

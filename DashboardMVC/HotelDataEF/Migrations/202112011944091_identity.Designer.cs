@@ -7,13 +7,13 @@ namespace HotelDataEF.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class status : IMigrationMetadata
+    public sealed partial class identity : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(status));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(identity));
         
         string IMigrationMetadata.Id
         {
-            get { return "202112011214514_status"; }
+            get { return "202112011944091_identity"; }
         }
         
         string IMigrationMetadata.Source

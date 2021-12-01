@@ -12,7 +12,7 @@ namespace HotelModels
     {
         public User User { get; set; }
         [Key]
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+       // [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [ForeignKey("User")]
         public new int ID { get; set; }
     }
