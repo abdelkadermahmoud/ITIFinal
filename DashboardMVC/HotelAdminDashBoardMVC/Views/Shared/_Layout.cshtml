@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using HotelModels
+<!DOCTYPE html>
 <html>
 <head>
     <link href="~/Content/dashboard.css" rel="stylesheet" />
@@ -37,6 +38,7 @@
         </div>
     </div>
 
+
     <div class="container-fluid">
         <div class="row">
             <section class="app col-sm-3 col-xs-3 col-md-3  col-lg-3">
@@ -47,10 +49,10 @@
                     <nav class="sidebar-nav">
                         <ul>
                             <li>
-                                <a href="#"><span>Shop</span></a>
+                                <a href="#"><span>Guest</span></a>
                                 <ul class="nav-flyout">
                                     <li>
-                                        <a href="#"><i class="ion-ios-color-filter-outline "></i>Derps</a>
+                                        @Html.ActionLink("Guest", "Index", "Guest")
                                     </li>
                                     <li>
                                         <a href="#"><i class="ion-ios-clock-outline "></i>Times</a>

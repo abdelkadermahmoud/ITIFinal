@@ -46,3 +46,4 @@ D:\iti\finalProject\DashboardMVC\HotelDataEF\obj\Debug\HotelDataEF.csproj.CoreCo
 D:\iti\finalProject\DashboardMVC\HotelDataEF\obj\Debug\HotelDataEF.dll
 D:\iti\finalProject\DashboardMVC\HotelDataEF\obj\Debug\HotelDataEF.pdb
 D:\iti\finalProject\DashboardMVC\HotelDataEF\obj\Debug\HotelDataEF.Migrations.status.resources
+D:\iti\finalProject\DashboardMVC\HotelDataEF\obj\Debug\HotelDataEF.csproj.CopyComplete
