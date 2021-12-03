@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Admin.cs" />
+    <Compile Include="AdminLoginModel.cs" />
     <Compile Include="BaseModel.cs" />
     <Compile Include="Cancelation.cs" />
     <Compile Include="Category.cs" />
