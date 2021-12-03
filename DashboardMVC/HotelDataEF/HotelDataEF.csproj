@@ -51,13 +51,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="DBContextFactory.cs" />
     <Compile Include="HotelContext.cs" />
     <Compile Include="IDBContextFactory.cs" />
-    <Compile Include="Migrations\202112011944091_identity.cs" />
-    <Compile Include="Migrations\202112011944091_identity.designer.cs">
-      <DependentUpon>202112011944091_identity.cs</DependentUpon>
+    <Compile Include="Migrations\202112031250538_first.cs" />
+    <Compile Include="Migrations\202112031250538_first.designer.cs">
+      <DependentUpon>202112031250538_first.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -73,8 +72,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202112011944091_identity.resx">
-      <DependentUpon>202112011944091_identity.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202112031250538_first.resx">
+      <DependentUpon>202112031250538_first.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

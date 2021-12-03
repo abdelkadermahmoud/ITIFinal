@@ -48,3 +48,4 @@ D:\iti\finalProject\DashboardMVC\Repositry\obj\Debug\Repositry.csproj.CoreCompil
 D:\iti\finalProject\DashboardMVC\Repositry\obj\Debug\Repositry.csproj.CopyComplete
 D:\iti\finalProject\DashboardMVC\Repositry\obj\Debug\Repositry.dll
 D:\iti\finalProject\DashboardMVC\Repositry\obj\Debug\Repositry.pdb
+C:\Users\abdel\source\repos\abdelkadermahmoud\ITIFinal\DashboardMVC\Repositry\bin\Debug\HotelModels.dll.config

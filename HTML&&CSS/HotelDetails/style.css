@@ -1,0 +1,59 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+}
+.Form{
+    width: 40%;
+    margin-left: 30%;
+    padding: 0;
+    background-color: #CFC;
+    border:greenyellow 2px double;
+}
+.imgcontainer{
+    width: 40%;
+    text-align: center;
+    margin-left: 30%;
+}
+img{
+    width: 100%;
+    border-radius: 50%;
+}
+.inputs{
+    position: relative;
+    display: block;
+    width: 97.6%;
+    padding: 20px 0px;
+    border:1px forestgreen solid;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+label{
+    padding-left: 10px;
+}
+button{
+    margin-top: 10px;
+    width: 100%;
+    padding: 20px 0px;
+    padding-left: 10px;
+    background-color: green;
+    color: white;
+    font-family: cursive;
+
+}
+button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.chkbox{
+    display: block;
+    padding: 15px 0px;
+}
+input[type="checkbox"]{
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+}

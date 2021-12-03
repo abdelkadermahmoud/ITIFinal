@@ -1,0 +1,33 @@
+﻿
+
+@using HotelModels;
+@using Repositry;
+@model List<Hotel>
+
+@{int count = 1; }
+<div>
+    @Html.ActionLink("Add Hotel","Create","Hotel")
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Hotel Name</th>
+            <th scope="col">Category</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Hotel h in Model)
+        {
+            <tr>
+                <th scope="row">@count</th>
+                <td>@h.Name</td>
+                <td>@h.Category.Name</td>
+
+
+            </tr>
+         count++;
+             }
+
+    </tbody>
+</table>

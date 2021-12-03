@@ -1,0 +1,251 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+html, body {
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    background-color: F1F1F1;
+}
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+h3{
+    font-size: 24px
+}
+header{
+    font-size: 18px;
+    background-color: white;
+}
+.btn{
+    padding: 10px 16px;
+    text-decoration: none;
+    color: black;
+    margin: 0px;
+    float: left;
+}
+.specialbtn{
+    background-color: red;
+    color: white;
+}
+.specialbtn:hover{
+    color: black;
+}
+.btn:hover{
+    background-color: #CCC;
+}
+.imgShow{
+    width: 100%;
+    height: auto;
+}
+.Check{
+    position: absolute;
+    padding: 2px 10px;
+    top: 60%;
+    left: 20px;
+    transform: translate(0%,-50%);
+    width: 100%;
+    background-color: white;
+    width: 50%;
+}
+.ChkHead{
+    color: white;
+    background-color: #f44336;
+    padding: 12px 16px;
+    margin-left: -5px;
+}
+form{
+    margin-right: 50px;
+}
+.shIn{
+    margin-bottom: 20px;
+    width: 49%;
+    display: inline-block;    
+}
+.shin{
+    width: 100%;
+    padding: 20px 0px;
+    font-size: 15px;
+}
+
+.btnSearch , .btnShow{
+    width: 50%;
+    background-color: #616161;
+    color: white;
+    border: none 0px;
+}
+.btnShow:hover{
+   background-color:  #fff;
+   color: black;
+   cursor: pointer;
+   
+}
+.Content{
+    background-color: F1F1F1;
+}
+.book , .Rooms{
+    padding: 0.01em 16px;
+    margin-top: 16px;
+}
+
+.row{
+    width: 33%;
+    display: inline-block;
+    margin-right: 50px;
+}
+.shRooms{
+    margin-bottom: 20px;
+    width: 49%;
+    display: inline-block; 
+}
+.btnSearch:hover{
+    background-color: blanchedalmond;
+    color:red;
+    cursor: pointer;
+}
+.btnSearch{
+    background-color: #000 !important;
+    color: white;
+    border: none 0px;
+}
+.divbtn
+{
+    width: 25%;
+    margin: 0;
+}
+ .roomsimg{
+    width: 100%;
+}
+.rooms{
+    display: inline-block;
+    width: 32%;
+}
+ .roomstype{
+    padding: 0.01em 16px;
+}
+.opac{
+    opacity: .5;
+} 
+.ChooseRoom{
+    width: 100%;
+    background-color: black;
+    padding: 15px 0px;
+    color: white;
+    border: none 0px;
+}
+.ChooseRoom:hover{
+    background-color: brown;
+    color: white;
+    cursor: pointer;  
+}
+.info{
+    padding: 0.01em 16px;
+}
+#About{
+    margin-top: 20px;
+    padding: 00.01em 16px;
+}
+.about{
+    width: 32%;
+    float: left;
+}
+.aboutimg{
+    width: 64%; 
+    float: left;
+    margin-left: 10px;
+
+}
+.contactinfo{
+    padding: 50px 16px;
+    width: 100%;
+    text-align: center;
+
+}
+.infoc{
+width: 32%;
+float: left;
+margin-left: 10px;
+font-family:FontAwesome;
+font-size: 20px;
+}
+.title{
+    position: relative; 
+    top: -35px;
+    color: white;
+    font-size: 16px;
+}
+img{
+    width:100%;
+}
+.half{
+    width: 48%;
+   display: inline-block;
+}
+.quarter{
+    width: 48%;
+    display: inline-block;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+.offers{
+    padding: 32px 16px;
+    background-color: #606060;
+    color: white;
+}
+.offers:hover{
+    background-color: black;
+    color: white;
+}
+input[type="email"],.msgname{
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    margin-bottom: 10px;
+}
+h2{
+    font-size: 30px;
+}
+.subscribe{
+  background-color: #f44336!important;
+  color: #fff;
+  border: none 0px ;
+  margin-top:16px!important;
+  text-align: center;
+  padding: 8px 16px;
+}
+.subscribe:hover{
+    
+    color: black;
+    background-color: #ccc!important;
+    cursor: pointer;
+}
+.c{
+   padding: 000.01em 16px;
+}
+.btnsend{
+    color: white;
+    background-color: black;
+    border: 0px none;
+    padding: 20px 10px;
+}
+.btnsend:hover{
+    background-color: #ccc;
+    color: black;
+    cursor: pointer;
+}
+footer{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 100px 0px;
+}
+footer p a{
+color: white;
+}
+.fa-facebook-official:before {
+    content: "\f230";
+}

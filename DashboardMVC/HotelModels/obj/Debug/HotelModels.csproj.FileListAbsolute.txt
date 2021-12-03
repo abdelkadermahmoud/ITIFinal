@@ -16,3 +16,8 @@ D:\iti\finalProject\DashboardMVC\HotelModels\obj\Debug\HotelModels.csproj.Assemb
 D:\iti\finalProject\DashboardMVC\HotelModels\obj\Debug\HotelModels.csproj.CoreCompileInputs.cache
 D:\iti\finalProject\DashboardMVC\HotelModels\obj\Debug\HotelModels.dll
 D:\iti\finalProject\DashboardMVC\HotelModels\obj\Debug\HotelModels.pdb
+C:\Users\abdel\source\repos\abdelkadermahmoud\ITIFinal\DashboardMVC\HotelModels\bin\Debug\HotelModels.dll.config
+C:\Users\abdel\source\repos\abdelkadermahmoud\ITIFinal\DashboardMVC\HotelModels\bin\Debug\EntityFramework.dll
+C:\Users\abdel\source\repos\abdelkadermahmoud\ITIFinal\DashboardMVC\HotelModels\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\abdel\source\repos\abdelkadermahmoud\ITIFinal\DashboardMVC\HotelModels\bin\Debug\EntityFramework.xml
+C:\Users\abdel\source\repos\abdelkadermahmoud\ITIFinal\DashboardMVC\HotelModels\bin\Debug\EntityFramework.SqlServer.xml

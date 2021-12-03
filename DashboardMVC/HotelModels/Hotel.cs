@@ -9,10 +9,11 @@ namespace HotelModels
 {
     public class Hotel :BaseModel
     {
+       
         public string Name { get; set; }
         public string Description { get; set; }
-        public DateTime CheckOutTime { get; set; }
-        public DateTime CheckInTime { get; set; }
+        public string CheckInTime { get; set; }
+        public string CheckOutTime { get; set; }
         public bool IsActive { get; set; }
         public Category Category { get; set; }
         [ForeignKey("Category")]

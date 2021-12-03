@@ -1,0 +1,28 @@
+﻿@using HotelModels
+@model AdminLoginModel
+
+@{ Layout = null;}
+
+
+<h1> Login Page</h1>
+@using (Html.BeginForm())
+{
+    @Html.LabelFor(i => i.UserName)
+    @Html.TextBoxFor(i => i.UserName)
+    @Html.ValidationMessageFor(i => i.UserName)
+
+    @Html.LabelFor(i => i.Password)
+    @Html.TextBoxFor(i => i.Password)
+    @Html.ValidationMessageFor(i => i.Password)
+
+    <input type="submit" value="Login" />
+
+
+        <br />
+            <br />
+
+
+            @Html.ValidationSummary()
+}
+
+

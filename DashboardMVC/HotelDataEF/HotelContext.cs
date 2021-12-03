@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace HotelDataEF
 {
-    internal class HotelContext : DbContext
+    public class HotelContext : DbContext
     {
         public HotelContext()
             : base("name=HotelDB")
@@ -16,27 +16,29 @@ namespace HotelDataEF
 
         }
 
-        public DbSet<User> Users { get; set; }
-        public DbSet<Guest> Guests { get; set; }
-        public DbSet<Admin> Admins { get; set; }
-        public DbSet<Partner> Partners { get; set; }
-        public DbSet<Cancelation> Cancelations { get; set; }
-        public DbSet<Category> Categories { get; set; }
-        public DbSet<City> Cities { get; set; }
-        public DbSet<Country> Countries { get; set; }
-        public DbSet<GuestReviewHotel> GuestReviewHotels { get; set; }
-        public DbSet<Hotel> Hotels { get; set; }
-        public DbSet<Meal> Meals { get; set; }
-        public DbSet<PartnerInvoice> PartnerInvoices { get; set; }
-        public DbSet<Phones> Phones { get; set; }
-        public DbSet<Photos> Photos { get; set; }
-        public DbSet<Reservation> Reservations { get; set; }
-        public DbSet<Reserve_Room> Reserve_Rooms { get; set; }
-        public DbSet<Room_Type> Room_Types { get; set; }
+        public virtual DbSet<User> Users { get; set; }
+        public virtual DbSet<Guest> Guests { get; set; }
+        public virtual DbSet<Admin> Admins { get; set; }
+        public virtual DbSet<Partner> Partners { get; set; }
+        public virtual DbSet<Cancelation> Cancelations { get; set; }
+        public virtual DbSet<Category> Categories { get; set; }
+        public virtual DbSet<City> Cities { get; set; }
+        public virtual DbSet<Country> Countries { get; set; }
+        public virtual DbSet<GuestReviewHotel> GuestReviewHotels { get; set; }
+        public virtual DbSet<Hotel> Hotels { get; set; }
+        public virtual DbSet<Meal> Meals { get; set; }
+        public virtual DbSet<PartnerInvoice> PartnerInvoices { get; set; }
+        public virtual DbSet<Phones> Phones { get; set; }
+        public virtual DbSet<Photos> Photos { get; set; }
+        public virtual DbSet<Reservation> Reservations { get; set; }
+        public virtual DbSet<Reserve_Room> Reserve_Rooms { get; set; }
+        public virtual DbSet<Room_Type> Room_Type { get; set; }
       
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
         }
+
+        public System.Data.Entity.DbSet<HotelModels.Room> Rooms { get; set; }
     }
 }
